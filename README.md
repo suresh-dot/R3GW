@@ -29,6 +29,8 @@ pip install git+https://github.com/NVlabs/nvdiffrast.git --no-build-isolation
 ```
 To train and evaluate our model we used the version of the [NeRF-OSR](https://4dqv.mpi-inf.mpg.de/NeRF-OSR/) dataset provided by [LumiGauss](https://lumigauss.github.io/), which can be downloaded [here](https://zenodo.org/records/15455694).
 
+Dataset available at [Dataset](https://nextcloud.mpi-klsb.mpg.de/index.php/s/mGXYKpD8raQ8nMk?dir=%2FData).
+
 Our model requires sky masks for training. For each scene, these masks must be generated in advance and stored in a floder named `sky_masks` within the directory `undistorted`. We generated the sky masks from the segmentation masks provided by [NeuSky](https://github.com/JADGardner/neusky).
 
 ## Usage
